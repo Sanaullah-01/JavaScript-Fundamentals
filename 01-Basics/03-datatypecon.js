@@ -15,8 +15,17 @@
 // "123ert" => number but NAN
 // True => 1,,  false => 0
 
-let isBoolean = 0
+// let isBoolean = 0
 
-let isBooleanvalue = Boolean (isBoolean)
+// let isBooleanvalue = Boolean (isBoolean)
 
-console.log(isBooleanvalue)
+// console.log(isBooleanvalue)
+
+
+//**************Operations****************
+
+let value = 34
+let negvalue = -value
+
+console.log(value)
+console.log(negvalue)
