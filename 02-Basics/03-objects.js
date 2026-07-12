@@ -11,14 +11,16 @@ const userobj = {
     totaldays: ["Monday", "tuesday", "wednesday"],
     email: "sanaullah@gmail.com"
 }
+Object.freeze(userobj)
+userobj.email = "sana@gmail.com"
+console.log(userobj);
+// console.log(userobj.email);
+// console.log(userobj["age"]);
+// console.log(userobj[pay]);
+// console.log(typeof userobj[pay]);
 
-console.log(userobj.email);
-console.log(userobj["age"]);
-console.log(userobj[pay]);
-console.log(typeof userobj[pay]);
-
-console.log(userobj["date_joined"]);
-console.log(typeof userobj["date_joined"]);
+// console.log(userobj["date_joined"]);
+// console.log(typeof userobj["date_joined"]);
 
 
 
