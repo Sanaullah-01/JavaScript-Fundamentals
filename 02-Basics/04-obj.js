@@ -29,6 +29,6 @@ const course = {
 
 const { name, duration, instructor } = course;
 console.log(course);
-console.log(name, duration, instructor);
+console.log("Name:", name, "Duration:", duration, "Instructor:", instructor);
 // console.log(duration);
 // console.log(instructor);
